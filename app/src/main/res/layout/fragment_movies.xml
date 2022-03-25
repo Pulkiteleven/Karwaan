@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.MoviesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        >
+
+
+
+
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="210dp"
+                    android:src="@drawable/mh"/>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/mons"
+                    android:padding="5dp"
+                    android:textSize="15dp"
+                    android:text="The relationship between movies and culture involves a complicated dynamic; while American movies certainly influence the mass culture that consumes them, they are also an integral part of that culture, a product of it, and therefore a reflection of prevailing concerns, attitudes, and beliefs."
+                    />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/mom"
+                    android:padding="5dp"
+                    android:textSize="35dp"
+                    android:text="Our RECOMMENDATION"
+                    />
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/grey"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="20dp">
+                <LinearLayout
+                android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="#45E6E6E6">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/at"/>
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Atrangi Re"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/mom"
+                        android:textSize="35dp"
+                        android:layout_gravity="center_vertical"/>
+                </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/grey"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="20dp">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="#45E6E6E6">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="20dp">
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/edge"/>
+                        </androidx.cardview.widget.CardView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Edge Of TOMMOROW"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/mom"
+                            android:textSize="35dp"
+                            android:layout_gravity="center_vertical"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/grey"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="20dp">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="#45E6E6E6">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="20dp">
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/tu"/>
+                        </androidx.cardview.widget.CardView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tumbaad"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/mom"
+                            android:textSize="35dp"
+                            android:layout_gravity="center_vertical"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/grey"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="20dp">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="#45E6E6E6">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="20dp">
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/bl"/>
+                        </androidx.cardview.widget.CardView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Black Panther"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/mom"
+                            android:textSize="35dp"
+                            android:layout_gravity="center_vertical"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/grey"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="20dp">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="#45E6E6E6">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="20dp">
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/ba"/>
+                        </androidx.cardview.widget.CardView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Baahubali"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/mom"
+                            android:textSize="35dp"
+                            android:layout_gravity="center_vertical"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/grey"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="20dp">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="#45E6E6E6">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="20dp">
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/jojo"/>
+                        </androidx.cardview.widget.CardView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="JOJO RABBIT"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/mom"
+                            android:textSize="35dp"
+                            android:layout_gravity="center_vertical"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</FrameLayout>

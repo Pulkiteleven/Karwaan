@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+       >
+
+
+
+
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="210dp"
+                    android:src="@drawable/kar"/>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/mons"
+                    android:padding="5dp"
+                    android:textSize="15dp"
+                    android:text="Karwaan is a cultural fest, organised by college students in order to promote art and
+culture in the college. This includes events and competitions comprising, Singing, Dancing,
+Poetry, Nukkad Natak, Drama, Debate, etc. Since the global pandemic is boring us down to
+our homes, Karwaan will be organised online to smash our roofs and let the rain in. This
+will be a platform for every artist, to showcase their talent and win exciting prizes. No
+matter if we are at our homes, we can still feel the mizzle about to come."/>
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/mom"
+                    android:padding="5dp"
+                    android:textSize="30dp"
+                    android:text="What is Culture According To Us:"
+                   />
+                <ImageView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="210dp"
+                    android:src="@drawable/movies"/>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/mom"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:text="The relationship between movies and culture involves a complicated dynamic;"
+                    />
+                <ImageView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="210dp"
+                    android:src="@drawable/dance"/>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/mom"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:text="Dance occupies an important place or rather is seen as an important factor in the social structure of all human cultures throughout history"
+                    />
+                <ImageView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="210dp"
+                    android:src="@drawable/music"/>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/mom"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:text="The commonalities and differences in musical forms and functions across cultures suggest new directions for ethnomusicology"
+                    />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+</FrameLayout>

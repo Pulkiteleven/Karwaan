@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/ic_baseline_camera_roll_24"
+        android:id="@+id/movieb"
+        android:title="Movies"/>
+    <item
+        android:id="@+id/homeb"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item
+        android:id="@+id/micb"
+        android:title="Open Mic"
+        android:icon="@drawable/ic_baseline_mic_24"/>
+
+</menu>

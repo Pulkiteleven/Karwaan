@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nav_activity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@android:color/white"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:titleTextColor="@color/black"
+            app:title="@string/app_name"
+            app:navigationIcon="@drawable/draic"
+            app:titleTextAppearance="@style/toolbart"
+            app:popupTheme="@style/Theme.Karwaan.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <nl.joery.animatedbottombar.AnimatedBottomBar
+        app:abb_textAppearance="@style/toolbart"
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:abb_selectedTabType="text"
+        app:abb_indicatorHeight="4dp"
+        app:abb_tabColor="#575757"
+        app:abb_indicatorColor="#5252FF"
+        app:abb_tabColorSelected="#4949FF"
+        app:abb_indicatorMargin="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:abb_indicatorAppearance="round"
+        android:elevation="5dp"
+        app:abb_selectedIndex="01"
+        app:abb_tabs="@menu/bottom_nav_menu"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/content_main">
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

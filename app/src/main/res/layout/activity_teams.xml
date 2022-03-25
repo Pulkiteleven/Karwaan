@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Team_activity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@android:color/white"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:titleTextColor="@color/black"
+            app:title="OUR TEAM"
+            app:navigationIcon="@drawable/ic_baseline_chevron_left_24"
+            app:titleTextAppearance="@style/toolbart"
+            app:popupTheme="@style/Theme.Karwaan.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:id="@+id/content_main">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AT ASPER WE LEARNED THAT:"
+                android:fontFamily="@font/mom"
+                android:textSize="35dp"
+                android:layout_gravity="center_vertical|center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alone we can do so little;\n together we can do so much"
+                android:fontFamily="@font/mons"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"
+                android:textSize="19dp"
+                android:layout_gravity="center_vertical|center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="So Here is Our Team:"
+                android:fontFamily="@font/mom"
+                android:layout_marginTop="5dp"
+                android:textSize="30dp"
+                android:layout_gravity="center_vertical|center_horizontal"/>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/grey"
+                android:elevation="10dp"
+                app:cardCornerRadius="20dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="center_vertical"
+                    android:background="#45E6E6E6">
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PARTH JAIN"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/mom"
+                        android:textSize="35dp"
+                        android:layout_gravity="center_vertical"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MENTOR"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/mons"
+                        android:textSize="15dp"
+                        android:layout_gravity="center_vertical"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/grey"
+                android:elevation="10dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="20dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="center_vertical"
+                    android:background="#45E6E6E6">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/mom"
+                        android:text="KSHITIJ YADAV"
+                        android:textSize="35dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MENTOR"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/mons"
+                        android:textSize="15dp"
+                        android:layout_gravity="center_vertical"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/grey"
+                android:elevation="10dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="20dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="center_vertical"
+                    android:background="#45E6E6E6">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/mom"
+                        android:text="DEEPIKA BHARWANI"
+                        android:textSize="35dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/mons"
+                        android:text="GRAPHICS DESIGNER and MARKETING"
+                        android:textSize="15dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/grey"
+                android:elevation="10dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="20dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="center_vertical"
+                    android:background="#45E6E6E6">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/mom"
+                        android:text="HARSH SHUKLA"
+                        android:textSize="35dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/mons"
+                        android:text="GRAPHICS DESIGNER"
+                        android:textSize="15dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/grey"
+                android:elevation="10dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="20dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="center_vertical"
+                    android:background="#45E6E6E6">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/mom"
+                        android:text="NANDINI YADAV"
+                        android:textSize="35dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/mons"
+                        android:text="WEB DEVLOPER"
+                        android:textSize="15dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/grey"
+                android:elevation="10dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="20dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="center_vertical"
+                    android:background="#45E6E6E6">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/mom"
+                        android:text="TANISHA CHATURVEDI"
+                        android:textSize="35dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/mons"
+                        android:text="MEDIA AND CONTENT MANGER and WEB DEVELOPER"
+                        android:textSize="15dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/grey"
+                android:elevation="10dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="20dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="center_vertical"
+                    android:background="#45E6E6E6">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/mom"
+                        android:text="PULKIT DUBEY"
+                        android:textSize="35dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/mons"
+                        android:text="APP DEVELOPER"
+                        android:textSize="15dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
